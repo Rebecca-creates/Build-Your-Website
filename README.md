@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Build-Your-Website
 DOCTYPE html>
 <html lang="en">
@@ -72,3 +73,6 @@ DOCTYPE html>
   </footer>
 </body>
 </html>
+=======
+# My-First-Project
+>>>>>>> 959ae173de1b849c84afe55cebb81c62a210f773
