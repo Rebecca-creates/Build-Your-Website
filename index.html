@@ -18,7 +18,7 @@
         </ul>
     </nav>
     <header>
-        <div class="row">    
+        <div class="row">
           <div>
             <h1>Best place to learn frontend</h1>   
             <p class="subheader"> Go from being an absolute beginner to pro with a simplified process</p>
@@ -34,15 +34,17 @@
   <main>
     <section id="about">
         <h2>About</h2> 
-        <div class="section__description">
+        <div class="row">
+         <div class="section__description">
           <div class="section__description--wrapper">
             <p class="section__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati pariatur consequatur ut culpa! Excepturi in, laborum necessitatibus inventore optio ad! Amet perferendis quo alias totam iste commodi optio vero iusto.</p>
             <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad facilis, cumque temporibus at sequi fuga ab iure provident aut nobis blanditiis quo alias a beatae in, assumenda, vero neque explicabo.</p>
-         </div>
-         <figure class="about__img--wrapper">
+          </div>
+          <figure class="about__img--wrapper">
             <img src="./assets/about.jpg" alt="about image">
-         </figure>
-        </div> 
+          </figure>
+         </div>
+        </div>
     </section>
     
     <section id="discord">
@@ -55,28 +57,27 @@
         <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad facilis, cumque temporibus at sequi fuga ab iure provident aut nobis blanditiis quo alias a beatae in, assumenda, vero neque explicabo.</p>
         <p class="section__description--para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio eius voluptatum fugit nulla ratione qui necessitatibus. Mollitia maxime quod nostrum. Repellendus, reprehenderit minus commodi debitis ratione reiciendis repellat voluptas. Explicabo!</p>
         </div>
-        </div>
     </section>
     
    <section id="contact">
         <h2>Contact</h2>
         <form>
             <label for="email">Email:</label>
-            <input type="text" placeholder="jane@example.com">
+            <input type="email" id="email" placeholder="jane@example.com">
             <label for="message">Message:</label>
-            <textarea type="text" placeholder="jane@example.com"></textarea>
+            <textarea type="text" placeholder="Cool website. Let's get connected!"></textarea>
             <button>Contact Us!</button>
         </form>
     </section>
   </main>
 
   <footer>
-    <img src="./assets/FES.svg" alt="">
-    <div>
-      <a href="#about">About</a>
-      <a href="#discord">Discord</a>
-      <a href="#contact">Contact</a>
-      <a href="">Courses</a>
+    <img class="footer__logo" src="./assets/FES.svg" alt="FES Logo">
+    <div class="footer__links">
+      <a class="footer__link" href="#about">About</a>
+      <a class="footer__link" href="#discord">Discord</a>
+      <a class="footer__link" href="#contact">Contact</a>
+      <a class="footer__link"  href="">Courses</a>
     </div>
     <p>Copyright Frontend Simplified</p>
   </footer>
